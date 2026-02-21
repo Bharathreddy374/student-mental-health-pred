@@ -1,0 +1,78 @@
+# ========================
+# Python
+# ========================
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Trained ML Models & Artifacts
+# ========================
+*.joblib
+*.pkl
+catboost_info/
+
+# ========================
+# Generated Images / Plots
+# ========================
+accuracy_comparison.png
+comparison_with_ihope.png
+confusion_matrix.png
+per_class_f1.png
+roc_curves.png
+
+# ========================
+# Node.js / React (web/)
+# ========================
+web/node_modules/
+web/build/
+web/.env.local
+web/.env.development.local
+web/.env.test.local
+web/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+*.env
+
+# ========================
+# Claude / Gemini / Agent
+# ========================
+.claude/
+.gemini/
+
+# ========================
+# Misc
+# ========================
+*.log
